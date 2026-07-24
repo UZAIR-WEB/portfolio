@@ -1,0 +1,601 @@
+/* ==========================================
+   RESPONSIVE.CSS
+   Muhammad Uzair Portfolio
+========================================== */
+
+
+/* ===============================
+   1400px
+================================ */
+
+@media (max-width:1400px){
+
+.hero-container{
+
+grid-template-columns:1fr 1fr;
+
+gap:50px;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+}
+
+.profile-card img{
+
+width:380px;
+
+}
+
+}
+
+
+/* ===============================
+   1200px
+================================ */
+
+@media (max-width:1200px){
+
+section{
+
+padding:90px 7%;
+
+}
+
+.navbar{
+
+padding:0 7%;
+
+}
+
+.hero h1{
+
+font-size:55px;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+.about-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+gap:50px;
+
+}
+
+.about-image{
+
+justify-content:center;
+
+}
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+}
+
+
+/* ===============================
+   992px
+================================ */
+
+@media (max-width:992px){
+
+.hero-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.hero-left{
+
+order:2;
+
+}
+
+.hero-right{
+
+order:1;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.social-icons{
+
+justify-content:center;
+
+}
+
+.profile-card{
+
+margin-bottom:40px;
+
+}
+
+.profile-card img{
+
+width:320px;
+
+}
+
+.stats-container{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.skills-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.projects-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.experience-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.certificate-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.achievement-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+
+/* ===============================
+   Education Timeline
+================================ */
+
+@media(max-width:992px){
+
+.timeline::before{
+
+left:20px;
+
+}
+
+.timeline-item{
+
+width:100%;
+
+left:0!important;
+
+padding-left:70px;
+
+padding-right:20px;
+
+text-align:left;
+
+}
+
+.timeline-dot{
+
+left:10px!important;
+
+right:auto;
+
+}
+
+}
+/* ==========================================
+   MOBILE RESPONSIVE
+========================================== */
+
+
+/* ===============================
+   768px
+================================ */
+
+@media (max-width:768px){
+
+header{
+
+padding:0;
+
+}
+
+.navbar{
+
+height:75px;
+
+padding:0 25px;
+
+}
+
+.nav-links{
+
+position:fixed;
+
+top:75px;
+
+right:-100%;
+
+width:280px;
+
+height:calc(100vh - 75px);
+
+background:#111827;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+justify-content:flex-start;
+
+padding-top:50px;
+
+gap:35px;
+
+transition:.4s;
+
+box-shadow:-10px 0 30px rgba(0,0,0,.4);
+
+}
+
+.nav-links.active{
+
+right:0;
+
+}
+
+.menu-btn{
+
+display:block;
+
+font-size:28px;
+
+color:white;
+
+cursor:pointer;
+
+}
+
+.hero{
+
+padding-top:120px;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+line-height:1.2;
+
+}
+
+.hero h2{
+
+font-size:22px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+gap:18px;
+
+}
+
+.hero-buttons .btn{
+
+width:230px;
+
+text-align:center;
+
+}
+
+.profile-card img{
+
+width:260px;
+
+}
+
+.about-content h3{
+
+font-size:28px;
+
+}
+
+.section-title h2{
+
+font-size:32px;
+
+}
+
+.stats-container{
+
+grid-template-columns:1fr;
+
+}
+
+.skills-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.projects-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.certificate-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.experience-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.achievement-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.github-stats img{
+
+width:100%;
+
+}
+
+.footer-social{
+
+flex-wrap:wrap;
+
+}
+
+}
+
+
+/* ===============================
+   576px
+================================ */
+
+@media (max-width:576px){
+
+section{
+
+padding:80px 20px;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero h2{
+
+font-size:20px;
+
+}
+
+.hero p{
+
+font-size:15px;
+
+}
+
+.badge{
+
+font-size:13px;
+
+padding:8px 16px;
+
+}
+
+.btn{
+
+padding:14px 25px;
+
+font-size:15px;
+
+}
+
+.profile-card img{
+
+width:220px;
+
+}
+
+.about-image img{
+
+width:220px;
+
+}
+
+.contact input,
+
+.contact textarea{
+
+font-size:15px;
+
+padding:15px;
+
+}
+
+.contact button{
+
+width:100%;
+
+}
+
+.footer-content h2{
+
+font-size:26px;
+
+}
+
+.footer-content p{
+
+font-size:14px;
+
+}
+
+}
+
+
+/* ===============================
+   400px
+================================ */
+
+@media (max-width:400px){
+
+.hero h1{
+
+font-size:28px;
+
+}
+
+.hero h2{
+
+font-size:18px;
+
+}
+
+.section-title h2{
+
+font-size:26px;
+
+}
+
+.logo a{
+
+font-size:26px;
+
+}
+
+.navbar{
+
+padding:0 15px;
+
+}
+
+.profile-card img{
+
+width:180px;
+
+}
+
+.about-image img{
+
+width:180px;
+
+}
+
+.hero-buttons .btn{
+
+width:100%;
+
+}
+
+.social-icons{
+
+gap:10px;
+
+}
+
+.social-icons a{
+
+width:42px;
+
+height:42px;
+
+font-size:18px;
+
+}
+
+#topBtn{
+
+right:15px;
+
+bottom:15px;
+
+width:45px;
+
+height:45px;
+
+font-size:16px;
+
+}
+
+}
+
+
+/* ===============================
+   LANDSCAPE PHONES
+================================ */
+
+@media (max-height:500px) and (orientation:landscape){
+
+.hero{
+
+min-height:auto;
+
+padding:140px 0 80px;
+
+}
+
+.nav-links{
+
+overflow-y:auto;
+
+}
+
+}

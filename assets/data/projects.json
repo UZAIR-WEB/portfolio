@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Certificate Management System",
+    "description": "Automated certificate generation using Google Apps Script.",
+    "image": "assets/images/projects/certificate-system.jpg",
+    "github": "https://github.com/UZAIR-WEB",
+    "demo": "#",
+    "tags": ["Google Apps Script", "Automation"]
+  },
+  {
+    "title": "Smart POS System",
+    "description": "Modern POS system with inventory and billing.",
+    "image": "assets/images/projects/pos.jpg",
+    "github": "https://github.com/UZAIR-WEB",
+    "demo": "#",
+    "tags": ["PHP", "MySQL"]
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Modern personal portfolio.",
+    "image": "assets/images/projects/portfolio.jpg",
+    "github": "https://github.com/UZAIR-WEB",
+    "demo": "#",
+    "tags": ["HTML", "CSS", "JavaScript"]
+  }
+]

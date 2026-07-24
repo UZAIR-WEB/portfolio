@@ -1,0 +1,392 @@
+/* ==========================================
+   ANIMATIONS.CSS
+========================================== */
+
+/* Fade Up */
+
+.fade-up{
+    animation:fadeUp 1s ease both;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+/* Fade Left */
+
+.fade-left{
+    animation:fadeLeft 1s ease both;
+}
+
+@keyframes fadeLeft{
+    from{
+        opacity:0;
+        transform:translateX(-60px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+
+/* Fade Right */
+
+.fade-right{
+    animation:fadeRight 1s ease both;
+}
+
+@keyframes fadeRight{
+    from{
+        opacity:0;
+        transform:translateX(60px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+
+/* Zoom */
+
+.zoom{
+    animation:zoom 1s ease both;
+}
+
+@keyframes zoom{
+
+from{
+
+opacity:0;
+
+transform:scale(.7);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+
+/* Floating */
+
+.float{
+
+animation:floating 4s ease-in-out infinite;
+
+}
+
+@keyframes floating{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/* Glow */
+
+.glow{
+
+animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+from{
+
+box-shadow:0 0 15px rgba(59,130,246,.25);
+
+}
+
+to{
+
+box-shadow:0 0 35px rgba(59,130,246,.7);
+
+}
+
+}
+
+
+/* Rotate */
+
+.rotate{
+
+animation:rotate 12s linear infinite;
+
+}
+
+@keyframes rotate{
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+
+/* Gradient */
+
+.gradient-text{
+
+background:linear-gradient(
+90deg,
+#3B82F6,
+#8B5CF6,
+#06B6D4);
+
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+
+}
+
+
+/* Hero Background */
+
+.hero::before{
+
+content:"";
+
+position:absolute;
+
+width:650px;
+
+height:650px;
+
+background:radial-gradient(circle,#3B82F640,transparent);
+
+top:-200px;
+
+right:-200px;
+
+border-radius:50%;
+
+filter:blur(100px);
+
+z-index:-1;
+
+}
+
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+width:500px;
+
+height:500px;
+
+background:radial-gradient(circle,#8B5CF640,transparent);
+
+bottom:-150px;
+
+left:-150px;
+
+border-radius:50%;
+
+filter:blur(100px);
+
+z-index:-1;
+
+}
+
+
+/* Card Hover */
+
+.project-card,
+.skill-card,
+.certificate-card,
+.experience-card,
+.stat-card{
+
+transition:.4s;
+
+}
+
+.project-card:hover,
+.skill-card:hover,
+.certificate-card:hover,
+.experience-card:hover,
+.stat-card:hover{
+
+transform:translateY(-12px);
+
+}
+
+
+/* Button Hover */
+
+.btn{
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.btn::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:-120%;
+
+width:120%;
+
+height:100%;
+
+background:rgba(255,255,255,.25);
+
+transform:skewX(-25deg);
+
+transition:.6s;
+
+}
+
+.btn:hover::before{
+
+left:120%;
+
+}
+
+
+/* Social */
+
+.social-icons a{
+
+transition:.35s;
+
+}
+
+.social-icons a:hover{
+
+transform:translateY(-8px) scale(1.12);
+
+}
+
+
+/* Profile */
+
+.profile-card img{
+
+animation:profileFloat 6s ease-in-out infinite;
+
+}
+
+@keyframes profileFloat{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/* Section Reveal */
+
+.section{
+
+opacity:0;
+
+animation:sectionFade 1s forwards;
+
+}
+
+@keyframes sectionFade{
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+
+/* Scroll Progress */
+
+#progress-bar{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+height:4px;
+
+width:0;
+
+background:linear-gradient(
+90deg,
+#3B82F6,
+#8B5CF6,
+#06B6D4);
+
+z-index:99999;
+
+}
+
+
+/* Smooth Transition */
+
+*{
+
+transition:
+background .3s,
+color .3s,
+border .3s;
+
+}

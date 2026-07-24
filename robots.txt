@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: /
+
+Sitemap:
+
+https://uzair-web.github.io/portfolio/sitemap.xml

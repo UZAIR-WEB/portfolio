@@ -1,0 +1,23 @@
+/* TEAM */
+
+Developer: Muhammad Uzair
+Role: Full Stack Web Developer
+Role: Data Science Undergraduate
+Role: AI Enthusiast
+
+Location: Peshawar, Pakistan
+
+Email: mu3489555@gmail.com
+
+GitHub:
+https://github.com/UZAIR-WEB
+
+LinkedIn:
+https://linkedin.com/in/muhammad-uzair-609454310
+
+/* SITE */
+
+HTML5
+CSS3
+JavaScript
+GitHub Pages
